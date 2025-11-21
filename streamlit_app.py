@@ -5,10 +5,10 @@ import numpy as np
 import os
 
 # Load models and vectorizers from model/ folder
-lda = joblib.load(os.path.join('model', 'lda_topic_model.joblib'))
-vectorizer = joblib.load(os.path.join('model', 'topic_vectorizer.joblib'))
-best_model = joblib.load(os.path.join('model', 'sentiment_best_model.joblib'))
-tfidf = joblib.load(os.path.join('model', 'sentiment_tfidf_vectorizer.joblib'))
+lda = joblib.load(os.path.join( 'lda_topic_model.joblib'))
+vectorizer = joblib.load(os.path.join( 'topic_vectorizer.joblib'))
+best_model = joblib.load(os.path.join( 'sentiment_best_model.joblib'))
+tfidf = joblib.load(os.path.join('sentiment_tfidf_vectorizer.joblib'))
 
 # Example topic labels
 topic_labels = {
