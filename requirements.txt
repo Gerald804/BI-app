@@ -11,8 +11,8 @@ matplotlib==3.10.7
 nltk==3.9.2
 
 # Updated for Python 3.13 compatibility
-numpy>=1.19.0
-scipy>=1.14.0
+numpy>=1.26.4
+scipy>=1.10.0
 pillow>=10.2.0
 
 packaging>=23.2
@@ -36,3 +36,4 @@ wordcloud==1.9.4
 streamlit==1.33.0
 
 vaderSentiment==3.3.2
+
